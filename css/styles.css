@@ -1,5 +1,13 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --second-text-color: #434445;
+  --brand-color: #4d5ae5;
+  --accent-kolor: #404bbf;
+}
+
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
 }
 
 .list {
@@ -16,6 +24,10 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
+.link-item:hover,
+.link-item:focus {
+  color: #404bbf;
+}
 .contact-adress .page {
   font-weight: 400;
   font-size: 16px;
@@ -24,9 +36,12 @@ body {
   color: #434455;
   text-decoration: none;
 }
-
+.adress-mail:hover,
+.adress-mail:focus {
+  color: #404bbf;
+}
 .logo-first {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
@@ -37,7 +52,7 @@ body {
   text-decoration: none;
 }
 .logo-second-dark {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -47,7 +62,7 @@ body {
   color: #2e2f42;
 }
 .logo-second-light {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -68,7 +83,9 @@ body {
 .hero {
   background: #2e2f42;
 }
-.btn-hero:hover {
+.btn-hero:hover,
+.btn-hero:focus {
+  color: #ffffff;
   background: #404bbf;
 }
 .btn-hero {
