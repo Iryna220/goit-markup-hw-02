@@ -3,11 +3,12 @@
   --second-text-color: #434445;
   --brand-color: #4d5ae5;
   --accent-kolor: #404bbf;
+  --background-origin: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color: var(--background-origin);
 }
 
 .list {
@@ -38,6 +39,10 @@ body {
 }
 .adress-mail:hover,
 .adress-mail:focus {
+  color: var(--accent-kolor);
+}
+.phone-number:hover,
+.phone-number:focus {
   color: var(--accent-kolor);
 }
 .logo-first {
@@ -77,7 +82,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--background-origin);
 }
 
 .hero {
@@ -85,7 +90,7 @@ body {
 }
 .btn-hero:hover,
 .btn-hero:focus {
-  color: #ffffff;
+  color: var(--background-origin);
   background: var(--accent-kolor);
 }
 .btn-hero {
@@ -94,7 +99,7 @@ body {
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--background-origin);
   background: var(--brand-color);
 }
 .features-caption {
@@ -148,7 +153,7 @@ body {
   color: var(--second-text-color);
 }
 .color-item {
-  background: #ffffff;
+  background: var(--background-origin);
 }
 .footer-page {
   background: var(--primary-text-color);
@@ -164,11 +169,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--brand-color);
 }
 .modale-btn-text:hover,
 .modale-btn-text:focus {
-  color: #ffffff;
+  color: var(--background-origin);
   background-color: var(--accent-kolor);
 }
 .gallery-titel {
