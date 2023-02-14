@@ -26,6 +26,9 @@ body {
   color: var(--primary-text-color);
   text-decoration: none;
 }
+.navigation .current {
+  color: var(--accent-kolor);
+}
 .link-item:hover,
 .link-item:focus {
   color: var(--accent-kolor);
