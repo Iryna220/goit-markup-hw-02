@@ -37,7 +37,6 @@ body {
   font-style: normal;
 }
 .contact-adress .page {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -55,34 +54,35 @@ body {
 }
 .logo-first {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
   display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--brand-color);
   text-decoration: none;
+  color: var(--brand-color);
 }
 .logo-second-dark {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
+  display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: var(--primary-text-color);
 }
 .logo-second-light {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
+  display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #f4f4fd;
 }
 .title-hero {
@@ -113,7 +113,6 @@ body {
   background: var(--brand-color);
 }
 .features-caption {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -140,7 +139,6 @@ body {
   overflow: hidden;
 }
 .main-titel {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -151,7 +149,6 @@ body {
   background: #f4f4fd;
 }
 .employee-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
